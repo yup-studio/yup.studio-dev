@@ -1,0 +1,11 @@
+# yup.studio
+
+> We modernize outdated websites for small businesses. Fast, responsive and ready for search engines and AI assistants. First concept free, no upfront payment.
+
+## Canonical sources
+- [Website](https://yup.studio/)
+- [AI-readable content](https://yup.studio/ai.md)
+
+## Public pages
+- [Home](https://yup.studio/)
+- [privacy](https://yup.studio/privacy)
