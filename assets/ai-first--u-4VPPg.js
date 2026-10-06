@@ -1,1 +1,0 @@
-import{d as e,t}from"./index-B1MNFGCX.js";var n=e(),r=()=>(0,n.jsx)(t,{topic:`aiFirst`});export{r as component};
