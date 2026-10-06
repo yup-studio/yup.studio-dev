@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/routes-DmT54nhD.js","assets/button-BXBrYoNV.js","assets/payments-CJI7FuOX.js","assets/arrow-left-Clyah-By.js","assets/lock-keyhole-CCzt5F3O.js","assets/payments-test-CF2htVeh.js","assets/privacy-DJWX6YGw.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/routes-D2Sm1Est.js","assets/button-DThC84pj.js","assets/payments-CfzqtJ3N.js","assets/arrow-left-CyqYfmeF.js","assets/lock-keyhole-Dss3EaC8.js","assets/payments-test-BAsP9GL6.js","assets/privacy-DEtVImCx.js"])))=>i.map(i=>d[i]);
 var e=Object.create,t=Object.defineProperty,n=Object.getOwnPropertyDescriptor,r=Object.getOwnPropertyNames,i=Object.getPrototypeOf,a=Object.prototype.hasOwnProperty,o=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports),s=(e,i,o,s)=>{if(i&&typeof i==`object`||typeof i==`function`)for(var c=r(i),l=0,u=c.length,d;l<u;l++)d=c[l],!a.call(e,d)&&d!==o&&t(e,d,{get:(e=>i[e]).bind(null,d),enumerable:!(s=n(i,d))||s.enumerable});return e},c=(n,r,o)=>(o=n==null?{}:e(i(n)),s(r||!n||!n.__esModule||!a.call(n,`default`)?t(o,`default`,{value:n,enumerable:!0}):o,n)),l=o((e=>{var t=Symbol.for(`react.transitional.element`),n=Symbol.for(`react.portal`),r=Symbol.for(`react.fragment`),i=Symbol.for(`react.strict_mode`),a=Symbol.for(`react.profiler`),o=Symbol.for(`react.consumer`),s=Symbol.for(`react.context`),c=Symbol.for(`react.forward_ref`),l=Symbol.for(`react.suspense`),u=Symbol.for(`react.memo`),d=Symbol.for(`react.lazy`),f=Symbol.for(`react.activity`),p=Symbol.iterator;function m(e){return typeof e!=`object`||!e?null:(e=p&&e[p]||e[`@@iterator`],typeof e==`function`?e:null)}var h={isMounted:function(){return!1},enqueueForceUpdate:function(){},enqueueReplaceState:function(){},enqueueSetState:function(){}},g=Object.assign,_={};function v(e,t,n){this.props=e,this.context=t,this.refs=_,this.updater=n||h}v.prototype.isReactComponent={},v.prototype.setState=function(e,t){if(typeof e!=`object`&&typeof e!=`function`&&e!=null)throw Error(`takes an object of state variables to update or a function which returns an object of state variables.`);this.updater.enqueueSetState(this,e,t,`setState`)},v.prototype.forceUpdate=function(e){this.updater.enqueueForceUpdate(this,e,`forceUpdate`)};function y(){}y.prototype=v.prototype;function b(e,t,n){this.props=e,this.context=t,this.refs=_,this.updater=n||h}var x=b.prototype=new y;x.constructor=b,g(x,v.prototype),x.isPureReactComponent=!0;var ee=Array.isArray;function S(){}var C={H:null,A:null,T:null,S:null},te=Object.prototype.hasOwnProperty;function ne(e,n,r){var i=r.ref;return{$$typeof:t,type:e,key:n,ref:i===void 0?null:i,props:r}}function re(e,t){return ne(e.type,t,e.props)}function ie(e){return typeof e==`object`&&!!e&&e.$$typeof===t}function ae(e){var t={"=":`=0`,":":`=2`};return`$`+e.replace(/[=:]/g,function(e){return t[e]})}var oe=/\/+/g;function se(e,t){return typeof e==`object`&&e&&e.key!=null?ae(``+e.key):t.toString(36)}function ce(e){switch(e.status){case`fulfilled`:return e.value;case`rejected`:throw e.reason;default:switch(typeof e.status==`string`?e.then(S,S):(e.status=`pending`,e.then(function(t){e.status===`pending`&&(e.status=`fulfilled`,e.value=t)},function(t){e.status===`pending`&&(e.status=`rejected`,e.reason=t)})),e.status){case`fulfilled`:return e.value;case`rejected`:throw e.reason}}throw e}function le(e,r,i,a,o){var s=typeof e;(s===`undefined`||s===`boolean`)&&(e=null);var c=!1;if(e===null)c=!0;else switch(s){case`bigint`:case`string`:case`number`:c=!0;break;case`object`:switch(e.$$typeof){case t:case n:c=!0;break;case d:return c=e._init,le(c(e._payload),r,i,a,o)}}if(c)return o=o(e),c=a===``?`.`+se(e,0):a,ee(o)?(i=``,c!=null&&(i=c.replace(oe,`$&/`)+`/`),le(o,r,i,``,function(e){return e})):o!=null&&(ie(o)&&(o=re(o,i+(o.key==null||e&&e.key===o.key?``:(``+o.key).replace(oe,`$&/`)+`/`)+c)),r.push(o)),1;c=0;var l=a===``?`.`:a+`:`;if(ee(e))for(var u=0;u<e.length;u++)a=e[u],s=l+se(a,u),c+=le(a,r,i,s,o);else if(u=m(e),typeof u==`function`)for(e=u.call(e),u=0;!(a=e.next()).done;)a=a.value,s=l+se(a,u++),c+=le(a,r,i,s,o);else if(s===`object`){if(typeof e.then==`function`)return le(ce(e),r,i,a,o);throw r=String(e),Error(`Objects are not valid as a React child (found: `+(r===`[object Object]`?`object with keys {`+Object.keys(e).join(`, `)+`}`:r)+`). If you meant to render a collection of children, use an array instead.`)}return c}function ue(e,t,n){if(e==null)return e;var r=[],i=0;return le(e,r,``,``,function(e){return t.call(n,e,i++)}),r}function de(e){if(e._status===-1){var t=e._result;t=t(),t.then(function(t){(e._status===0||e._status===-1)&&(e._status=1,e._result=t)},function(t){(e._status===0||e._status===-1)&&(e._status=2,e._result=t)}),e._status===-1&&(e._status=0,e._result=t)}if(e._status===1)return e._result.default;throw e._result}var w=typeof reportError==`function`?reportError:function(e){if(typeof window==`object`&&typeof window.ErrorEvent==`function`){var t=new window.ErrorEvent(`error`,{bubbles:!0,cancelable:!0,message:typeof e==`object`&&e&&typeof e.message==`string`?String(e.message):String(e),error:e});if(!window.dispatchEvent(t))return}else if(typeof process==`object`&&typeof process.emit==`function`){process.emit(`uncaughtException`,e);return}console.error(e)},E={map:ue,forEach:function(e,t,n){ue(e,function(){t.apply(this,arguments)},n)},count:function(e){var t=0;return ue(e,function(){t++}),t},toArray:function(e){return ue(e,function(e){return e})||[]},only:function(e){if(!ie(e))throw Error(`React.Children.only expected to receive a single React element child.`);return e}};e.Activity=f,e.Children=E,e.Component=v,e.Fragment=r,e.Profiler=a,e.PureComponent=b,e.StrictMode=i,e.Suspense=l,e.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE=C,e.__COMPILER_RUNTIME={__proto__:null,c:function(e){return C.H.useMemoCache(e)}},e.cache=function(e){return function(){return e.apply(null,arguments)}},e.cacheSignal=function(){return null},e.cloneElement=function(e,t,n){if(e==null)throw Error(`The argument must be a React element, but you passed `+e+`.`);var r=g({},e.props),i=e.key;if(t!=null)for(a in t.key!==void 0&&(i=``+t.key),t)!te.call(t,a)||a===`key`||a===`__self`||a===`__source`||a===`ref`&&t.ref===void 0||(r[a]=t[a]);var a=arguments.length-2;if(a===1)r.children=n;else if(1<a){for(var o=Array(a),s=0;s<a;s++)o[s]=arguments[s+2];r.children=o}return ne(e.type,i,r)},e.createContext=function(e){return e={$$typeof:s,_currentValue:e,_currentValue2:e,_threadCount:0,Provider:null,Consumer:null},e.Provider=e,e.Consumer={$$typeof:o,_context:e},e},e.createElement=function(e,t,n){var r,i={},a=null;if(t!=null)for(r in t.key!==void 0&&(a=``+t.key),t)te.call(t,r)&&r!==`key`&&r!==`__self`&&r!==`__source`&&(i[r]=t[r]);var o=arguments.length-2;if(o===1)i.children=n;else if(1<o){for(var s=Array(o),c=0;c<o;c++)s[c]=arguments[c+2];i.children=s}if(e&&e.defaultProps)for(r in o=e.defaultProps,o)i[r]===void 0&&(i[r]=o[r]);return ne(e,a,i)},e.createRef=function(){return{current:null}},e.forwardRef=function(e){return{$$typeof:c,render:e}},e.isValidElement=ie,e.lazy=function(e){return{$$typeof:d,_payload:{_status:-1,_result:e},_init:de}},e.memo=function(e,t){return{$$typeof:u,type:e,compare:t===void 0?null:t}},e.startTransition=function(e){var t=C.T,n={};C.T=n;try{var r=e(),i=C.S;i!==null&&i(n,r),typeof r==`object`&&r&&typeof r.then==`function`&&r.then(S,w)}catch(e){w(e)}finally{t!==null&&n.types!==null&&(t.types=n.types),C.T=t}},e.unstable_useCacheRefresh=function(){return C.H.useCacheRefresh()},e.use=function(e){return C.H.use(e)},e.useActionState=function(e,t,n){return C.H.useActionState(e,t,n)},e.useCallback=function(e,t){return C.H.useCallback(e,t)},e.useContext=function(e){return C.H.useContext(e)},e.useDebugValue=function(){},e.useDeferredValue=function(e,t){return C.H.useDeferredValue(e,t)},e.useEffect=function(e,t){return C.H.useEffect(e,t)},e.useEffectEvent=function(e){return C.H.useEffectEvent(e)},e.useId=function(){return C.H.useId()},e.useImperativeHandle=function(e,t,n){return C.H.useImperativeHandle(e,t,n)},e.useInsertionEffect=function(e,t){return C.H.useInsertionEffect(e,t)},e.useLayoutEffect=function(e,t){return C.H.useLayoutEffect(e,t)},e.useMemo=function(e,t){return C.H.useMemo(e,t)},e.useOptimistic=function(e,t){return C.H.useOptimistic(e,t)},e.useReducer=function(e,t,n){return C.H.useReducer(e,t,n)},e.useRef=function(e){return C.H.useRef(e)},e.useState=function(e){return C.H.useState(e)},e.useSyncExternalStore=function(e,t,n){return C.H.useSyncExternalStore(e,t,n)},e.useTransition=function(){return C.H.useTransition()},e.version=`19.2.8`})),u=o(((e,t)=>{t.exports=l()})),d=o((e=>{function t(e,t){var n=e.length;e.push(t);a:for(;0<n;){var r=n-1>>>1,a=e[r];if(0<i(a,t))e[r]=t,e[n]=a,n=r;else break a}}function n(e){return e.length===0?null:e[0]}function r(e){if(e.length===0)return null;var t=e[0],n=e.pop();if(n!==t){e[0]=n;a:for(var r=0,a=e.length,o=a>>>1;r<o;){var s=2*(r+1)-1,c=e[s],l=s+1,u=e[l];if(0>i(c,n))l<a&&0>i(u,c)?(e[r]=u,e[l]=n,r=l):(e[r]=c,e[s]=n,r=s);else if(l<a&&0>i(u,n))e[r]=u,e[l]=n,r=l;else break a}}return t}function i(e,t){var n=e.sortIndex-t.sortIndex;return n===0?e.id-t.id:n}if(e.unstable_now=void 0,typeof performance==`object`&&typeof performance.now==`function`){var a=performance;e.unstable_now=function(){return a.now()}}else{var o=Date,s=o.now();e.unstable_now=function(){return o.now()-s}}var c=[],l=[],u=1,d=null,f=3,p=!1,m=!1,h=!1,g=!1,_=typeof setTimeout==`function`?setTimeout:null,v=typeof clearTimeout==`function`?clearTimeout:null,y=typeof setImmediate<`u`?setImmediate:null;function b(e){for(var i=n(l);i!==null;){if(i.callback===null)r(l);else if(i.startTime<=e)r(l),i.sortIndex=i.expirationTime,t(c,i);else break;i=n(l)}}function x(e){if(h=!1,b(e),!m)if(n(c)!==null)m=!0,ee||(ee=!0,ie());else{var t=n(l);t!==null&&se(x,t.startTime-e)}}var ee=!1,S=-1,C=5,te=-1;function ne(){return g?!0:!(e.unstable_now()-te<C)}function re(){if(g=!1,ee){var t=e.unstable_now();te=t;var i=!0;try{a:{m=!1,h&&(h=!1,v(S),S=-1),p=!0;var a=f;try{b:{for(b(t),d=n(c);d!==null&&!(d.expirationTime>t&&ne());){var o=d.callback;if(typeof o==`function`){d.callback=null,f=d.priorityLevel;var s=o(d.expirationTime<=t);if(t=e.unstable_now(),typeof s==`function`){d.callback=s,b(t),i=!0;break b}d===n(c)&&r(c),b(t)}else r(c);d=n(c)}if(d!==null)i=!0;else{var u=n(l);u!==null&&se(x,u.startTime-t),i=!1}}break a}finally{d=null,f=a,p=!1}}}finally{i?ie():ee=!1}}}var ie;if(typeof y==`function`)ie=function(){y(re)};else if(typeof MessageChannel<`u`){var ae=new MessageChannel,oe=ae.port2;ae.port1.onmessage=re,ie=function(){oe.postMessage(null)}}else ie=function(){_(re,0)};function se(t,n){S=_(function(){t(e.unstable_now())},n)}e.unstable_IdlePriority=5,e.unstable_ImmediatePriority=1,e.unstable_LowPriority=4,e.unstable_NormalPriority=3,e.unstable_Profiling=null,e.unstable_UserBlockingPriority=2,e.unstable_cancelCallback=function(e){e.callback=null},e.unstable_forceFrameRate=function(e){0>e||125<e?console.error(`forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported`):C=0<e?Math.floor(1e3/e):5},e.unstable_getCurrentPriorityLevel=function(){return f},e.unstable_next=function(e){switch(f){case 1:case 2:case 3:var t=3;break;default:t=f}var n=f;f=t;try{return e()}finally{f=n}},e.unstable_requestPaint=function(){g=!0},e.unstable_runWithPriority=function(e,t){switch(e){case 1:case 2:case 3:case 4:case 5:break;default:e=3}var n=f;f=e;try{return t()}finally{f=n}},e.unstable_scheduleCallback=function(r,i,a){var o=e.unstable_now();switch(typeof a==`object`&&a?(a=a.delay,a=typeof a==`number`&&0<a?o+a:o):a=o,r){case 1:var s=-1;break;case 2:s=250;break;case 5:s=1073741823;break;case 4:s=1e4;break;default:s=5e3}return s=a+s,r={id:u++,callback:i,priorityLevel:r,startTime:a,expirationTime:s,sortIndex:-1},a>o?(r.sortIndex=a,t(l,r),n(c)===null&&r===n(l)&&(h?(v(S),S=-1):h=!0,se(x,a-o))):(r.sortIndex=s,t(c,r),m||p||(m=!0,ee||(ee=!0,ie()))),r},e.unstable_shouldYield=ne,e.unstable_wrapCallback=function(e){var t=f;return function(){var n=f;f=t;try{return e.apply(this,arguments)}finally{f=n}}}})),f=o(((e,t)=>{t.exports=d()})),p=o((e=>{var t=u();function n(e){var t=`https://react.dev/errors/`+e;if(1<arguments.length){t+=`?args[]=`+encodeURIComponent(arguments[1]);for(var n=2;n<arguments.length;n++)t+=`&args[]=`+encodeURIComponent(arguments[n])}return`Minified React error #`+e+`; visit `+t+` for the full message or use the non-minified dev environment for full errors and additional helpful warnings.`}function r(){}var i={d:{f:r,r:function(){throw Error(n(522))},D:r,C:r,L:r,m:r,X:r,S:r,M:r},p:0,findDOMNode:null},a=Symbol.for(`react.portal`);function o(e,t,n){var r=3<arguments.length&&arguments[3]!==void 0?arguments[3]:null;return{$$typeof:a,key:r==null?null:``+r,children:e,containerInfo:t,implementation:n}}var s=t.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;function c(e,t){if(e===`font`)return``;if(typeof t==`string`)return t===`use-credentials`?t:``}e.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE=i,e.createPortal=function(e,t){var r=2<arguments.length&&arguments[2]!==void 0?arguments[2]:null;if(!t||t.nodeType!==1&&t.nodeType!==9&&t.nodeType!==11)throw Error(n(299));return o(e,t,null,r)},e.flushSync=function(e){var t=s.T,n=i.p;try{if(s.T=null,i.p=2,e)return e()}finally{s.T=t,i.p=n,i.d.f()}},e.preconnect=function(e,t){typeof e==`string`&&(t?(t=t.crossOrigin,t=typeof t==`string`?t===`use-credentials`?t:``:void 0):t=null,i.d.C(e,t))},e.prefetchDNS=function(e){typeof e==`string`&&i.d.D(e)},e.preinit=function(e,t){if(typeof e==`string`&&t&&typeof t.as==`string`){var n=t.as,r=c(n,t.crossOrigin),a=typeof t.integrity==`string`?t.integrity:void 0,o=typeof t.fetchPriority==`string`?t.fetchPriority:void 0;n===`style`?i.d.S(e,typeof t.precedence==`string`?t.precedence:void 0,{crossOrigin:r,integrity:a,fetchPriority:o}):n===`script`&&i.d.X(e,{crossOrigin:r,integrity:a,fetchPriority:o,nonce:typeof t.nonce==`string`?t.nonce:void 0})}},e.preinitModule=function(e,t){if(typeof e==`string`)if(typeof t==`object`&&t){if(t.as==null||t.as===`script`){var n=c(t.as,t.crossOrigin);i.d.M(e,{crossOrigin:n,integrity:typeof t.integrity==`string`?t.integrity:void 0,nonce:typeof t.nonce==`string`?t.nonce:void 0})}}else t??i.d.M(e)},e.preload=function(e,t){if(typeof e==`string`&&typeof t==`object`&&t&&typeof t.as==`string`){var n=t.as,r=c(n,t.crossOrigin);i.d.L(e,n,{crossOrigin:r,integrity:typeof t.integrity==`string`?t.integrity:void 0,nonce:typeof t.nonce==`string`?t.nonce:void 0,type:typeof t.type==`string`?t.type:void 0,fetchPriority:typeof t.fetchPriority==`string`?t.fetchPriority:void 0,referrerPolicy:typeof t.referrerPolicy==`string`?t.referrerPolicy:void 0,imageSrcSet:typeof t.imageSrcSet==`string`?t.imageSrcSet:void 0,imageSizes:typeof t.imageSizes==`string`?t.imageSizes:void 0,media:typeof t.media==`string`?t.media:void 0})}},e.preloadModule=function(e,t){if(typeof e==`string`)if(t){var n=c(t.as,t.crossOrigin);i.d.m(e,{as:typeof t.as==`string`&&t.as!==`script`?t.as:void 0,crossOrigin:n,integrity:typeof t.integrity==`string`?t.integrity:void 0})}else i.d.m(e)},e.requestFormReset=function(e){i.d.r(e)},e.unstable_batchedUpdates=function(e,t){return e(t)},e.useFormState=function(e,t,n){return s.H.useFormState(e,t,n)},e.useFormStatus=function(){return s.H.useHostTransitionStatus()},e.version=`19.2.8`})),m=o(((e,t)=>{function n(){if(!(typeof __REACT_DEVTOOLS_GLOBAL_HOOK__>`u`||typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE!=`function`))try{__REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE(n)}catch(e){console.error(e)}}n(),t.exports=p()})),h=o((e=>{var t=f(),n=u(),r=m();function i(e){var t=`https://react.dev/errors/`+e;if(1<arguments.length){t+=`?args[]=`+encodeURIComponent(arguments[1]);for(var n=2;n<arguments.length;n++)t+=`&args[]=`+encodeURIComponent(arguments[n])}return`Minified React error #`+e+`; visit `+t+` for the full message or use the non-minified dev environment for full errors and additional helpful warnings.`}function a(e){return!(!e||e.nodeType!==1&&e.nodeType!==9&&e.nodeType!==11)}function o(e){var t=e,n=e;if(e.alternate)for(;t.return;)t=t.return;else{e=t;do t=e,t.flags&4098&&(n=t.return),e=t.return;while(e)}return t.tag===3?n:null}function s(e){if(e.tag===13){var t=e.memoizedState;if(t===null&&(e=e.alternate,e!==null&&(t=e.memoizedState)),t!==null)return t.dehydrated}return null}function c(e){if(e.tag===31){var t=e.memoizedState;if(t===null&&(e=e.alternate,e!==null&&(t=e.memoizedState)),t!==null)return t.dehydrated}return null}function l(e){if(o(e)!==e)throw Error(i(188))}function d(e){var t=e.alternate;if(!t){if(t=o(e),t===null)throw Error(i(188));return t===e?e:null}for(var n=e,r=t;;){var a=n.return;if(a===null)break;var s=a.alternate;if(s===null){if(r=a.return,r!==null){n=r;continue}break}if(a.child===s.child){for(s=a.child;s;){if(s===n)return l(a),e;if(s===r)return l(a),t;s=s.sibling}throw Error(i(188))}if(n.return!==r.return)n=a,r=s;else{for(var c=!1,u=a.child;u;){if(u===n){c=!0,n=a,r=s;break}if(u===r){c=!0,r=a,n=s;break}u=u.sibling}if(!c){for(u=s.child;u;){if(u===n){c=!0,n=s,r=a;break}if(u===r){c=!0,r=s,n=a;break}u=u.sibling}if(!c)throw Error(i(189))}}if(n.alternate!==r)throw Error(i(190))}if(n.tag!==3)throw Error(i(188));return n.stateNode.current===n?e:t}function p(e){var t=e.tag;if(t===5||t===26||t===27||t===6)return e;for(e=e.child;e!==null;){if(t=p(e),t!==null)return t;e=e.sibling}return null}var h=Object.assign,g=Symbol.for(`react.element`),_=Symbol.for(`react.transitional.element`),v=Symbol.for(`react.portal`),y=Symbol.for(`react.fragment`),b=Symbol.for(`react.strict_mode`),x=Symbol.for(`react.profiler`),ee=Symbol.for(`react.consumer`),S=Symbol.for(`react.context`),C=Symbol.for(`react.forward_ref`),te=Symbol.for(`react.suspense`),ne=Symbol.for(`react.suspense_list`),re=Symbol.for(`react.memo`),ie=Symbol.for(`react.lazy`),ae=Symbol.for(`react.activity`),oe=Symbol.for(`react.memo_cache_sentinel`),se=Symbol.iterator;function ce(e){return typeof e!=`object`||!e?null:(e=se&&e[se]||e[`@@iterator`],typeof e==`function`?e:null)}var le=Symbol.for(`react.client.reference`);function ue(e){if(e==null)return null;if(typeof e==`function`)return e.$$typeof===le?null:e.displayName||e.name||null;if(typeof e==`string`)return e;switch(e){case y:return`Fragment`;case x:return`Profiler`;case b:return`StrictMode`;case te:return`Suspense`;case ne:return`SuspenseList`;case ae:return`Activity`}if(typeof e==`object`)switch(e.$$typeof){case v:return`Portal`;case S:return e.displayName||`Context`;case ee:return(e._context.displayName||`Context`)+`.Consumer`;case C:var t=e.render;return e=e.displayName,e||=(e=t.displayName||t.name||``,e===``?`ForwardRef`:`ForwardRef(`+e+`)`),e;case re:return t=e.displayName||null,t===null?ue(e.type)||`Memo`:t;case ie:t=e._payload,e=e._init;try{return ue(e(t))}catch{}}return null}var de=Array.isArray,w=n.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,E=r.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,fe={pending:!1,data:null,method:null,action:null},pe=[],me=-1;function he(e){return{current:e}}function D(e){0>me||(e.current=pe[me],pe[me]=null,me--)}function O(e,t){me++,pe[me]=e.current,e.current=t}var ge=he(null),_e=he(null),ve=he(null),ye=he(null);function be(e,t){switch(O(ve,t),O(_e,e),O(ge,null),t.nodeType){case 9:case 11:e=(e=t.documentElement)&&(e=e.namespaceURI)?Hd(e):0;break;default:if(e=t.tagName,t=t.namespaceURI)t=Hd(t),e=Ud(t,e);else switch(e){case`svg`:e=1;break;case`math`:e=2;break;default:e=0}}D(ge),O(ge,e)}function xe(){D(ge),D(_e),D(ve)}function Se(e){e.memoizedState!==null&&O(ye,e);var t=ge.current,n=Ud(t,e.type);t!==n&&(O(_e,e),O(ge,n))}function Ce(e){_e.current===e&&(D(ge),D(_e)),ye.current===e&&(D(ye),$f._currentValue=fe)}var we,Te;function Ee(e){if(we===void 0)try{throw Error()}catch(e){var t=e.stack.trim().match(/\n( *(at )?)/);we=t&&t[1]||``,Te=-1<e.stack.indexOf(`
     at`)?` (<anonymous>)`:-1<e.stack.indexOf(`@`)?`@unknown:0:0`:``}return`
 `+we+e+Te}var De=!1;function Oe(e,t){if(!e||De)return``;De=!0;var n=Error.prepareStackTrace;Error.prepareStackTrace=void 0;try{var r={DetermineComponentFrameRoot:function(){try{if(t){var n=function(){throw Error()};if(Object.defineProperty(n.prototype,"props",{set:function(){throw Error()}}),typeof Reflect==`object`&&Reflect.construct){try{Reflect.construct(n,[])}catch(e){var r=e}Reflect.construct(e,[],n)}else{try{n.call()}catch(e){r=e}e.call(n.prototype)}}else{try{throw Error()}catch(e){r=e}(n=e())&&typeof n.catch==`function`&&n.catch(function(){})}}catch(e){if(e&&r&&typeof e.stack==`string`)return[e.stack,r.stack]}return[null,null]}};r.DetermineComponentFrameRoot.displayName=`DetermineComponentFrameRoot`;var i=Object.getOwnPropertyDescriptor(r.DetermineComponentFrameRoot,`name`);i&&i.configurable&&Object.defineProperty(r.DetermineComponentFrameRoot,"name",{value:`DetermineComponentFrameRoot`});var a=r.DetermineComponentFrameRoot(),o=a[0],s=a[1];if(o&&s){var c=o.split(`
@@ -44,73 +44,466 @@ Error generating stack: `+e.message+`
   },
   "public": {
     "cs": {
-      "seo": { "title": "yup.studio — Moderní weby pro malé firmy", "description": "Modernizujeme staré weby malých firem. Rychlý, responzivní web připravený pro vyhledávače i AI asistenty. První návrh zdarma, bez zálohy." },
-      "hero": { "title": "Modernizujeme staré weby malých firem.", "text": "Rychlý, moderní a responzivní web připravený pro vyhledávače i AI asistenty.", "price": "od 7 900 Kč", "primaryCta": "Nechat si připravit návrh", "secondaryCta": "Jak to funguje" },
+      "seo": {
+        "title": "yup.studio — Moderní weby pro malé firmy",
+        "description": "Moderní weby pro malé firmy. První návrh zdarma, bez zálohy — platíte až po schválení."
+      },
+      "hero": {
+        "title": "Web pro to, co přijde dál.",
+        "text": "Modernizujeme staré weby a tvoříme nové. První návrh vám ukáže, co můžete mít.",
+        "price": "od 7 900 Kč",
+        "primaryCta": "Nechat si připravit návrh",
+        "secondaryCta": "Jak to funguje"
+      },
       "highlights": ["První návrh zdarma", "Bez zálohy — platíte až po schválení"],
-      "audience": { "title": "Pro koho to je", "items": ["Malé firmy se zastaralým webem", "Nové malé firmy, které web ještě nemají"] },
-      "process": { "title": "Jak to funguje", "steps": [
-        { "title": "Pošlete nám svůj web", "text": "Pokud web ještě nemáte, stačí nám popsat vaši firmu a co potřebujete." },
-        { "title": "Připravíme první návrh zdarma", "text": "Ukážeme vám směr redesignu ještě před tím, než se rozhodnete pokračovat." },
-        { "title": "Po schválení zaplatíte a web nasadíme", "text": "Bez zálohy. Platíte až ve chvíli, kdy schválíte výsledný web." }
-      ] },
-      "included": { "title": "Co je v ceně", "price": "od 7 900 Kč", "items": [
-        "Jednoduchý firemní web — redesign nebo nový web", "Responzivní design pro mobil, tablet i desktop", "Až 3 jazykové verze", "Základní SEO", "Příprava obsahu pro vyhledávače a AI asistenty", "Rychlý statický web bez zbytečného balastu", "Technické nastavení domény při spuštění", "HTTPS", "3 kola připomínek v rámci původně dohodnutého rozsahu", "Produkční web bez vendor lock-in"
-      ], "groups": [{ "title": "Web a předání", "itemIndices": [0, 1, 2, 8, 9] }, { "title": "Technické nastavení", "itemIndices": [3, 4, 5, 6, 7] }], "note": "Složitější projekty a nové funkce naceníme individuálně." },
-      "management": { "title": "Technická správa", "price": "800 Kč/rok + cena domény", "text": "Technický dohled nad webem, hostingem, DNS a prodloužením domény. Změny obsahu nejsou součástí roční správy." },
+      "showcase": {
+        "enabled": true,
+        "title": "Podívejte se, co můžete mít",
+        "text": "Méně vysvětlování. Nejdřív vám ukážeme směr."
+      },
+      "audience": {
+        "enabled": false,
+        "showOnHomepage": false,
+        "title": "Pro koho to je",
+        "items": ["Malé firmy se zastaralým webem", "Nové malé firmy, které web ještě nemají"]
+      },
+      "process": {
+        "title": "Jak to funguje",
+        "steps": [
+          {
+            "title": "Pošlete nám svůj web",
+            "text": "Pokud web ještě nemáte, stačí nám popsat vaši firmu a co potřebujete."
+          },
+          {
+            "title": "Připravíme první návrh zdarma",
+            "text": "Ukážeme vám směr redesignu ještě před tím, než se rozhodnete pokračovat."
+          },
+          {
+            "title": "Po schválení zaplatíte a web nasadíme",
+            "text": "Bez zálohy. Platíte až ve chvíli, kdy schválíte výsledný web."
+          }
+        ]
+      },
+      "included": {
+        "title": "Co dostanete",
+        "price": "od 7 900 Kč",
+        "items": [
+          "Jednoduchý firemní web — redesign nebo nový web",
+          "Responzivní design pro mobil, tablet i desktop",
+          "Až 3 jazykové verze",
+          "Základní SEO",
+          "Příprava obsahu pro vyhledávače a AI asistenty",
+          "Rychlý statický web bez zbytečného balastu",
+          "Technické nastavení domény při spuštění",
+          "HTTPS",
+          "3 kola připomínek v rámci původně dohodnutého rozsahu",
+          "Produkční web bez vendor lock-in"
+        ],
+        "groups": [
+          { "title": "Web a předání", "itemIndices": [0, 1, 2, 8, 9] },
+          { "title": "Technické nastavení", "itemIndices": [3, 4, 5, 6, 7] }
+        ],
+        "note": "Složitější projekty a nové funkce naceníme individuálně."
+      },
+      "management": {
+        "title": "Technická správa",
+        "price": "800 Kč/rok + cena domény",
+        "text": "Technický dohled nad webem, hostingem, DNS a prodloužením domény. Změny obsahu nejsou součástí roční správy."
+      },
       "features": [
-        { "key": "responsive", "title": "Responzivní", "text": "Web funguje na mobilu, tabletu i desktopu." },
-        { "key": "performance", "title": "Rychlý", "text": "Statický web bez zbytečného balastu." },
-        { "key": "seo", "title": "Připravený pro vyhledávače", "text": "Základní SEO je součástí každého webu." },
-        { "key": "ai", "title": "Připravený pro AI asistenty", "text": "Obsah webu strukturujeme tak, aby byl dobře použitelný i pro AI asistenty." },
-        { "key": "ownership", "title": "Bez vendor lock-in", "text": "Produkční web si můžete kdykoli převzít a spravovat jinde." }
+        {
+          "key": "responsive",
+          "showOnHomepage": false,
+          "title": "Responzivní",
+          "text": "Web funguje na mobilu, tabletu i desktopu."
+        },
+        {
+          "key": "performance",
+          "showOnHomepage": false,
+          "title": "Rychlý",
+          "text": "Statický web bez zbytečného balastu."
+        },
+        {
+          "key": "seo",
+          "showOnHomepage": false,
+          "title": "Připravený pro vyhledávače",
+          "text": "Základní SEO je součástí každého webu."
+        },
+        {
+          "key": "ai",
+          "showOnHomepage": false,
+          "title": "Připravený pro AI asistenty",
+          "text": "Obsah webu strukturujeme tak, aby byl dobře použitelný i pro AI asistenty."
+        },
+        {
+          "key": "ownership",
+          "showOnHomepage": false,
+          "title": "Bez vendor lock-in",
+          "text": "Produkční web si můžete kdykoli převzít a spravovat jinde."
+        }
       ],
-      "contact": { "title": "Nechat si připravit návrh", "text": "Pošlete nám svůj současný web nebo stručně popište, co potřebujete.", "fields": { "name": "Jméno", "email": "E-mail", "phone": "Telefon", "website": "Web / firma", "message": "Zpráva" }, "optionalFields": ["phone", "website"], "submit": "Odeslat poptávku", "successTitle": "Děkujeme.", "successText": "Ozveme se vám co nejdříve.", "sending": "Odesílám…", "errorTitle": "Odeslání se nezdařilo.", "errorText": "Zkuste to prosím znovu, nebo nám napište na e-mail." },
-      "footer": { "privacy": "Ochrana osobních údajů", "cookies": "Cookies", "terms": "Obchodní podmínky", "copyright": "© 2026 yup.studio" }
+      "pages": {
+        "aiFirst": {
+          "enabled": true,
+          "path": "/ai-first",
+          "seo": {
+            "title": "AI-first weby — yup.studio",
+            "description": "Weby připravené nejen pro vyhledávače, ale také pro AI asistenty a nové způsoby objevování obsahu."
+          },
+          "title": "Web připravený pro AI asistenty",
+          "intro": "Obsah a technickou strukturu stavíme tak, aby web dobře fungoval dnes a byl připravený i na nové způsoby, jak lidé hledají informace.",
+          "items": [
+            {
+              "title": "Strukturovaný obsah",
+              "text": "Informace na webu mají jasnou strukturu a nejsou schované jen ve vizuální vrstvě."
+            },
+            {
+              "title": "SEO i AI",
+              "text": "Klasické vyhledávače zůstávají důležité. Zároveň připravujeme obsah tak, aby mu dobře rozuměli i AI asistenti."
+            },
+            {
+              "title": "Strojově čitelné výstupy",
+              "text": "Kde to dává smysl, generujeme metadata, strukturovaná data a AI čitelné zdroje z jednoho obsahu."
+            }
+          ]
+        },
+        "modernWeb": {
+          "enabled": true,
+          "path": "/modern-web",
+          "seo": {
+            "title": "Moderní web — yup.studio",
+            "description": "Rychlý, responzivní a snadno přenositelný web bez zbytečného balastu."
+          },
+          "title": "Moderní web bez zbytečného balastu",
+          "intro": "Web má fungovat rychle, dobře na každém zařízení a bez zbytečné závislosti na jednom dodavateli.",
+          "items": [
+            {
+              "title": "Responzivní",
+              "text": "Web funguje na mobilu, tabletu i desktopu."
+            },
+            {
+              "title": "Rychlý",
+              "text": "Statický výstup držíme jednoduchý a rychlý."
+            },
+            {
+              "title": "Bez vendor lock-in",
+              "text": "Produkční web si můžete kdykoli převzít a spravovat jinde."
+            },
+            {
+              "title": "HTTPS a doména",
+              "text": "Součástí spuštění je technické nastavení domény a HTTPS."
+            }
+          ]
+        },
+        "payments": {
+          "enabled": true,
+          "path": "/payments",
+          "title": "Platby na webu",
+          "intro": "Když web potřebuje přijímat platby, umíme připravit jednoduché napojení na platební službu podle konkrétního projektu."
+        }
+      },
+      "contact": {
+        "title": "Nechat si připravit návrh",
+        "text": "Pošlete nám svůj současný web nebo stručně popište, co potřebujete.",
+        "fields": {
+          "name": "Jméno",
+          "email": "E-mail",
+          "phone": "Telefon",
+          "website": "Web / firma",
+          "message": "Zpráva"
+        },
+        "optionalFields": ["phone", "website"],
+        "submit": "Odeslat poptávku",
+        "successTitle": "Děkujeme.",
+        "successText": "Ozveme se vám co nejdříve.",
+        "sending": "Odesílám…",
+        "errorTitle": "Odeslání se nezdařilo.",
+        "errorText": "Zkuste to prosím znovu, nebo nám napište na e-mail."
+      },
+      "footer": {
+        "privacy": "Ochrana osobních údajů",
+        "cookies": "Cookies",
+        "terms": "Obchodní podmínky",
+        "copyright": "© 2026 yup.studio"
+      }
     },
     "en": {
-      "seo": { "title": "yup.studio — Modern websites for small businesses", "description": "We modernize outdated websites for small businesses. Fast, responsive and ready for search engines and AI assistants. First concept free, no upfront payment." },
-      "hero": { "title": "We modernize outdated websites for small businesses.", "text": "A fast, modern and responsive website ready for search engines and AI assistants.", "price": "from €329", "primaryCta": "Get a website concept", "secondaryCta": "How it works" },
+      "seo": {
+        "title": "yup.studio — Modern websites for small businesses",
+        "description": "Modern websites for small businesses. First concept free, no upfront payment — pay after approval."
+      },
+      "hero": {
+        "title": "Websites built for what’s next.",
+        "text": "We modernize outdated websites and build new ones. Your first concept shows you what you could have.",
+        "price": "from €329",
+        "primaryCta": "Get a website concept",
+        "secondaryCta": "How it works"
+      },
       "highlights": ["First concept free", "No upfront payment — pay after approval"],
-      "audience": { "title": "Who it is for", "items": ["Small businesses with an outdated website", "New small businesses that do not have a website yet"] },
-      "process": { "title": "How it works", "steps": [
-        { "title": "Send us your website", "text": "If you do not have one yet, tell us about your business and what you need." },
-        { "title": "We prepare the first concept for free", "text": "You see the direction of the redesign before deciding whether to continue." },
-        { "title": "After approval, you pay and we launch", "text": "No upfront payment. You pay once you approve the finished website." }
-      ] },
-      "included": { "title": "What is included", "price": "from €329", "items": [
-        "Simple business website, redesigned or new", "Responsive design for mobile, tablet and desktop", "Up to 3 language versions", "Basic SEO", "Content prepared for search engines and AI assistants", "Fast static website without unnecessary bloat", "Domain setup for launch", "HTTPS", "3 feedback rounds within the originally agreed scope", "Production website without vendor lock-in"
-      ], "groups": [{ "title": "Website & delivery", "itemIndices": [0, 1, 2, 8, 9] }, { "title": "Technical setup", "itemIndices": [3, 4, 5, 6, 7] }], "note": "More complex projects and additional functionality are priced individually." },
-      "management": { "title": "Technical management", "price": "€35/year + domain renewal cost", "text": "Technical oversight of the website, hosting, DNS and domain renewal. Content changes are not included." },
+      "showcase": {
+        "enabled": true,
+        "title": "See what you could have",
+        "text": "Less explaining. First, we show you the direction."
+      },
+      "audience": {
+        "enabled": false,
+        "showOnHomepage": false,
+        "title": "Who it is for",
+        "items": ["Small businesses with an outdated website", "New small businesses that do not have a website yet"]
+      },
+      "process": {
+        "title": "How it works",
+        "steps": [
+          {
+            "title": "Send us your website",
+            "text": "If you do not have one yet, tell us about your business and what you need."
+          },
+          {
+            "title": "We prepare the first concept for free",
+            "text": "You see the direction of the redesign before deciding whether to continue."
+          },
+          {
+            "title": "After approval, you pay and we launch",
+            "text": "No upfront payment. You pay once you approve the finished website."
+          }
+        ]
+      },
+      "included": {
+        "title": "What you get",
+        "price": "from €329",
+        "items": [
+          "Simple business website, redesigned or new",
+          "Responsive design for mobile, tablet and desktop",
+          "Up to 3 language versions",
+          "Basic SEO",
+          "Content prepared for search engines and AI assistants",
+          "Fast static website without unnecessary bloat",
+          "Domain setup for launch",
+          "HTTPS",
+          "3 feedback rounds within the originally agreed scope",
+          "Production website without vendor lock-in"
+        ],
+        "groups": [
+          { "title": "Website & delivery", "itemIndices": [0, 1, 2, 8, 9] },
+          { "title": "Technical setup", "itemIndices": [3, 4, 5, 6, 7] }
+        ],
+        "note": "More complex projects and additional functionality are priced individually."
+      },
+      "management": {
+        "title": "Technical management",
+        "price": "€35/year + domain renewal cost",
+        "text": "Technical oversight of the website, hosting, DNS and domain renewal. Content changes are not included."
+      },
       "features": [
-        { "key": "responsive", "title": "Responsive", "text": "Works across mobile, tablet and desktop." },
-        { "key": "performance", "title": "Fast", "text": "A static website without unnecessary bloat." },
-        { "key": "seo", "title": "Search-ready", "text": "Basic SEO is included with every website." },
-        { "key": "ai", "title": "Ready for AI assistants", "text": "Website content is structured so AI assistants can understand and use it effectively." },
-        { "key": "ownership", "title": "No vendor lock-in", "text": "You can take over the production website and manage it elsewhere at any time." }
+        {
+          "key": "responsive",
+          "showOnHomepage": false,
+          "title": "Responsive",
+          "text": "Works across mobile, tablet and desktop."
+        },
+        {
+          "key": "performance",
+          "showOnHomepage": false,
+          "title": "Fast",
+          "text": "A static website without unnecessary bloat."
+        },
+        {
+          "key": "seo",
+          "showOnHomepage": false,
+          "title": "Search-ready",
+          "text": "Basic SEO is included with every website."
+        },
+        {
+          "key": "ai",
+          "showOnHomepage": false,
+          "title": "Ready for AI assistants",
+          "text": "Website content is structured so AI assistants can understand and use it effectively."
+        },
+        {
+          "key": "ownership",
+          "showOnHomepage": false,
+          "title": "No vendor lock-in",
+          "text": "You can take over the production website and manage it elsewhere at any time."
+        }
       ],
-      "contact": { "title": "Get a website concept", "text": "Send us your current website or briefly describe what you need.", "fields": { "name": "Name", "email": "Email", "phone": "Phone", "website": "Website / company", "message": "Message" }, "optionalFields": ["phone", "website"], "submit": "Send enquiry", "successTitle": "Thank you.", "successText": "We will get back to you as soon as possible.", "sending": "Sending…", "errorTitle": "Sending failed.", "errorText": "Please try again, or email us directly." },
-      "footer": { "privacy": "Privacy", "cookies": "Cookies", "terms": "Terms", "copyright": "© 2026 yup.studio" }
+      "pages": {
+        "aiFirst": {
+          "enabled": true,
+          "path": "/ai-first",
+          "seo": {
+            "title": "AI-first websites — yup.studio",
+            "description": "Websites prepared not only for search engines, but also for AI assistants and new ways of discovering content."
+          },
+          "title": "A website ready for AI assistants",
+          "intro": "We structure content and the technical foundation so the website works well today and is ready for new ways people discover information.",
+          "items": [
+            {
+              "title": "Structured content",
+              "text": "Information has a clear structure instead of being hidden only in the visual layer."
+            },
+            {
+              "title": "SEO and AI",
+              "text": "Traditional search still matters. We also prepare content so AI assistants can understand it effectively."
+            },
+            {
+              "title": "Machine-readable outputs",
+              "text": "Where useful, we generate metadata, structured data and AI-readable sources from the same canonical content."
+            }
+          ]
+        },
+        "modernWeb": {
+          "enabled": true,
+          "path": "/modern-web",
+          "seo": {
+            "title": "Modern websites — yup.studio",
+            "description": "Fast, responsive and portable websites without unnecessary bloat."
+          },
+          "title": "A modern website without unnecessary bloat",
+          "intro": "A website should be fast, work well on every device and avoid unnecessary dependence on a single vendor.",
+          "items": [
+            {
+              "title": "Responsive",
+              "text": "Works across mobile, tablet and desktop."
+            },
+            {
+              "title": "Fast",
+              "text": "We keep the static output simple and fast."
+            },
+            {
+              "title": "No vendor lock-in",
+              "text": "You can take over the production website and manage it elsewhere at any time."
+            },
+            {
+              "title": "HTTPS and domain",
+              "text": "Launch includes the technical setup of the domain and HTTPS."
+            }
+          ]
+        },
+        "payments": {
+          "enabled": true,
+          "path": "/payments",
+          "title": "Website payments",
+          "intro": "When a website needs to accept payments, we can prepare a simple payment-service integration based on the project."
+        }
+      },
+      "contact": {
+        "title": "Get a website concept",
+        "text": "Send us your current website or briefly describe what you need.",
+        "fields": {
+          "name": "Name",
+          "email": "Email",
+          "phone": "Phone",
+          "website": "Website / company",
+          "message": "Message"
+        },
+        "optionalFields": ["phone", "website"],
+        "submit": "Send enquiry",
+        "successTitle": "Thank you.",
+        "successText": "We will get back to you as soon as possible.",
+        "sending": "Sending…",
+        "errorTitle": "Sending failed.",
+        "errorText": "Please try again, or email us directly."
+      },
+      "footer": {
+        "privacy": "Privacy",
+        "cookies": "Cookies",
+        "terms": "Terms",
+        "copyright": "© 2026 yup.studio"
+      }
     }
   },
-  "pricing": { "enabled": false, "base": { "cs": "od 7 900 Kč", "en": "from €329" }, "management": { "cs": "800 Kč/rok + cena domény", "en": "€35/year + domain renewal cost" } },
-  "payment": { "enabled": true, "visibility": "approved-clients-only", "provider": "stripe", "product": "Website Package 7900", "amount": 7900, "currency": "CZK", "url": "https://buy.stripe.com/14A8wP2ay4Zh90R5NQcs800", "approvalRequired": true, "publicCta": false },
-  "paymentTest": { "enabled": true, "visibility": "internal-test-only", "provider": "stripe", "product": "Website Package test", "amount": 100, "currency": "CZK", "url": "https://buy.stripe.com/28E5kD2aygHZb8Zfoqcs801", "publicCta": false },
-  "addons": { "enabled": false, "items": [{ "key": "payments", "status": "demo-required", "price": null }, { "key": "advanced-forms", "status": "demo-required", "price": null }] },
+  "homepage": {
+    "sections": ["hero", "showcase", "process", "included", "contact"],
+    "hide": ["audience", "features"]
+  },
+  "pricing": {
+    "enabled": false,
+    "base": { "cs": "od 7 900 Kč", "en": "from €329" },
+    "management": { "cs": "800 Kč/rok + cena domény", "en": "€35/year + domain renewal cost" }
+  },
+  "payment": {
+    "enabled": true,
+    "visibility": "approved-clients-only",
+    "provider": "stripe",
+    "product": "Website Package 7900",
+    "amount": 7900,
+    "currency": "CZK",
+    "url": "https://buy.stripe.com/14A8wP2ay4Zh90R5NQcs800",
+    "approvalRequired": true,
+    "publicCta": false
+  },
+  "paymentTest": {
+    "enabled": true,
+    "visibility": "internal-test-only",
+    "provider": "stripe",
+    "product": "Website Package test",
+    "amount": 100,
+    "currency": "CZK",
+    "url": "https://buy.stripe.com/28E5kD2aygHZb8Zfoqcs801",
+    "publicCta": false
+  },
+  "addons": {
+    "enabled": false,
+    "items": [
+      { "key": "payments", "status": "demo-required", "price": null },
+      { "key": "advanced-forms", "status": "demo-required", "price": null }
+    ]
+  },
   "portfolio": { "enabled": false, "items": [] },
   "stats": { "enabled": false, "items": [] },
-  "legal": { "privacy": { "enabled": true, "path": "/privacy" }, "cookies": { "enabled": false, "path": "/cookies" }, "terms": { "enabled": false, "path": "/terms" } },
+  "legal": {
+    "privacy": { "enabled": true, "path": "/privacy" },
+    "cookies": { "enabled": false, "path": "/cookies" },
+    "terms": { "enabled": false, "path": "/terms" }
+  },
   "internal": {
     "sourceOfTruth": "content.md is authoritative for all public content, translations, metadata and public asset references.",
-    "contentGeneration": { "generateSeoFromContent": true, "generateAiReadableContent": true, "generateLlmsTxt": true, "generateSitemap": true, "generateJsonLd": true, "canonicalUsesProductionDomain": true },
-    "development": { "indexing": false, "robots": "noindex, nofollow", "includeInSitemap": false, "generateSeoOutputs": false },
+    "contentGeneration": {
+      "generateSeoFromContent": true,
+      "generateAiReadableContent": true,
+      "generateLlmsTxt": true,
+      "generateSitemap": true,
+      "generateJsonLd": true,
+      "canonicalUsesProductionDomain": true
+    },
+    "development": {
+      "indexing": false,
+      "robots": "noindex, nofollow",
+      "includeInSitemap": false,
+      "generateSeoOutputs": false
+    },
     "delivery": { "speedClaim": "fast delivery", "averageDeliveryDays": null },
-    "freeConcept": { "enabled": true, "scope": "limited introductory concept only; not a complete finished website" },
-    "feedback": { "freeRounds": 3, "scope": "within the originally agreed project scope" },
-    "languages": { "maxIncluded": 3, "clientMaySupplyTranslations": true, "automaticTranslationAllowed": true, "clientApprovalRequired": true },
-    "contentResponsibility": { "clientApprovesAccuracy": true, "clientConfirmsRightsToMedia": true },
-    "domain": { "preferredOwnership": "client", "setupIncludedInBasePrice": true, "renewalFeeIncludedInManagement": false },
-    "hosting": { "publicCopyMayMentionProvider": false, "httpsRequired": true },
-    "cookies": { "defaultEnabled": false, "enableWhenRequiredByTrackingOrAnalytics": true }
+    "freeConcept": {
+      "enabled": true,
+      "scope": "limited introductory concept only; not a complete finished website"
+    },
+    "feedback": {
+      "freeRounds": 3,
+      "scope": "within the originally agreed project scope"
+    },
+    "languages": {
+      "maxIncluded": 3,
+      "clientMaySupplyTranslations": true,
+      "automaticTranslationAllowed": true,
+      "clientApprovalRequired": true
+    },
+    "contentResponsibility": {
+      "clientApprovesAccuracy": true,
+      "clientConfirmsRightsToMedia": true
+    },
+    "domain": {
+      "preferredOwnership": "client",
+      "setupIncludedInBasePrice": true,
+      "renewalFeeIncludedInManagement": false
+    },
+    "hosting": {
+      "publicCopyMayMentionProvider": false,
+      "httpsRequired": true
+    },
+    "cookies": {
+      "defaultEnabled": false,
+      "enableWhenRequiredByTrackingOrAnalytics": true
+    }
   }
 }
-\`\`\``.match(/```json\s*([\s\S]*?)\s*```/);if(!ou?.[1])throw Error(`content.md must contain a fenced JSON document`);var X=JSON.parse(ou[1]),su={"@context":`https://schema.org`,"@type":`Organization`,name:X.brand.name,url:X.site.productionUrl,email:X.business.email,description:X.public[X.site.fallbackLanguage].seo.description,logo:new URL(X.brand.logo,X.site.productionUrl).toString()};function cu(){return(0,z.jsx)(`div`,{className:`flex min-h-screen items-center justify-center bg-background px-4`,children:(0,z.jsxs)(`div`,{className:`max-w-md text-center`,children:[(0,z.jsx)(`h1`,{className:`text-7xl font-bold text-foreground`,children:`404`}),(0,z.jsx)(`h2`,{className:`mt-4 text-xl font-semibold text-foreground`,children:`Page not found`}),(0,z.jsx)(`p`,{className:`mt-2 text-sm text-muted-foreground`,children:`The page you're looking for doesn't exist or has been moved.`}),(0,z.jsx)(`div`,{className:`mt-6`,children:(0,z.jsx)(Cc,{to:`/`,className:`inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90`,children:`Go home`})})]})})}function lu({error:e,reset:t}){console.error(e);let n=As();return(0,R.useEffect)(()=>{au(e,{boundary:`tanstack_root_error_component`})},[e]),(0,z.jsx)(`div`,{className:`flex min-h-screen items-center justify-center bg-background px-4`,children:(0,z.jsxs)(`div`,{className:`max-w-md text-center`,children:[(0,z.jsx)(`h1`,{className:`text-xl font-semibold tracking-tight text-foreground`,children:`This page didn't load`}),(0,z.jsx)(`p`,{className:`mt-2 text-sm text-muted-foreground`,children:`Something went wrong on our end. You can try refreshing or head back home.`}),(0,z.jsxs)(`div`,{className:`mt-6 flex flex-wrap justify-center gap-2`,children:[(0,z.jsx)(`button`,{onClick:()=>{n.invalidate(),t()},className:`inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90`,children:`Try again`}),(0,z.jsx)(`a`,{href:`/`,className:`inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent`,children:`Go home`})]})]})})}var uu=Dc()({head:()=>({meta:[{charSet:`utf-8`},{name:`viewport`,content:`width=device-width, initial-scale=1`},{title:X.public.en.seo.title},{name:`description`,content:X.public.en.seo.description},{name:`author`,content:X.brand.name},{name:`robots`,content:X.internal.development.robots},{property:`og:title`,content:X.public.en.seo.title},{property:`og:description`,content:X.public.en.seo.description},{property:`og:type`,content:`website`},{name:`twitter:card`,content:`summary_large_image`}],links:[{rel:`stylesheet`,href:iu},{rel:`icon`,href:`/${X.brand.logo}`,type:`image/png`},{rel:`preconnect`,href:`https://fonts.googleapis.com`},{rel:`preconnect`,href:`https://fonts.gstatic.com`,crossOrigin:`anonymous`},{rel:`stylesheet`,href:`https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap`}]}),shellComponent:du,component:fu,notFoundComponent:cu,errorComponent:lu});function du({children:e}){return(0,z.jsxs)(`html`,{lang:`en`,children:[(0,z.jsxs)(`head`,{children:[(0,z.jsx)(tl,{}),(0,z.jsx)(`script`,{type:`application/ld+json`,dangerouslySetInnerHTML:{__html:JSON.stringify(su)}})]}),(0,z.jsxs)(`body`,{children:[e,(0,z.jsx)(nl,{})]})]})}function fu(){let{queryClient:e}=uu.useRouteContext();return(0,z.jsx)(ru,{client:e,children:(0,z.jsx)(Hc,{})})}var pu=`modulepreload`,mu=function(e){return`/`+e},hu={},gu=function(e,t,n){let r=Promise.resolve();if(t&&t.length>0){let e=document.getElementsByTagName(`link`),i=document.querySelector(`meta[property=csp-nonce]`),a=i?.nonce||i?.getAttribute(`nonce`);function o(e){return Promise.all(e.map(e=>Promise.resolve(e).then(e=>({status:`fulfilled`,value:e}),e=>({status:`rejected`,reason:e}))))}function s(e){return import.meta.resolve?import.meta.resolve(e):new URL(e,import.meta.url).href}r=o(t.map(t=>{if(t=mu(t,n),t=s(t),t in hu)return;hu[t]=!0;let r=t.endsWith(`.css`);for(let n=e.length-1;n>=0;n--){let i=e[n];if(i.href===t&&(!r||i.rel===`stylesheet`))return}let i=document.createElement(`link`);if(i.rel=r?`stylesheet`:pu,r||(i.as=`script`),i.crossOrigin=``,i.href=t,a&&i.setAttribute(`nonce`,a),document.head.appendChild(i),r)return new Promise((e,n)=>{i.addEventListener(`load`,e),i.addEventListener(`error`,()=>n(Error(`Unable to preload CSS for ${t}`)))})}))}function i(e){let t=new Event(`vite:preloadError`,{cancelable:!0});if(t.payload=e,window.dispatchEvent(t),!t.defaultPrevented)throw e}return r.then(t=>{for(let e of t||[])e.status===`rejected`&&i(e.reason);return e().catch(i)})},_u=()=>gu(()=>import(`./routes-DmT54nhD.js`),__vite__mapDeps([0,1])),vu=X.public.en.seo,yu=Ac(`/`)({head:()=>({meta:[{title:vu.title},{name:`description`,content:vu.description},{name:`robots`,content:X.internal.development.robots},{property:`og:title`,content:vu.title},{property:`og:description`,content:vu.description},{property:`og:type`,content:`website`},{name:`twitter:card`,content:`summary_large_image`}]}),component:Mc(_u,`component`)}),bu=Ac(`/payments`)({head:()=>({meta:[{title:`Payment — ${X.brand.name}`},{name:`description`,content:`Secure payment for an approved yup.studio website project.`},{name:`robots`,content:X.internal.development.robots}]}),component:Mc(()=>gu(()=>import(`./payments-CJI7FuOX.js`),__vite__mapDeps([2,1,3,4])),`component`)}),xu=Ac(`/payments-test`)({head:()=>({meta:[{title:`Payment test — ${X.brand.name}`},{name:`description`,content:`Internal live payment test for yup.studio.`},{name:`robots`,content:`noindex, nofollow`}]}),component:Mc(()=>gu(()=>import(`./payments-test-CF2htVeh.js`),__vite__mapDeps([5,1,3,4])),`component`)}),Su=Ac(`/privacy`)({head:()=>({meta:[{title:`${X.public.en.footer.privacy} — ${X.brand.name}`},{name:`description`,content:X.public.en.seo.description},{name:`robots`,content:X.internal.development.robots},{property:`og:title`,content:`${X.public.en.footer.privacy} — ${X.brand.name}`},{property:`og:description`,content:X.public.en.seo.description},{property:`og:type`,content:`website`},{name:`twitter:card`,content:`summary_large_image`}]}),component:Mc(()=>gu(()=>import(`./privacy-DJWX6YGw.js`),__vite__mapDeps([6,1,3])),`component`)}),Cu={IndexRoute:yu.update({id:`/`,path:`/`,getParentRoute:()=>uu}),PaymentsRoute:bu.update({id:`/payments`,path:`/payments`,getParentRoute:()=>uu}),PaymentsTestRoute:xu.update({id:`/payments-test`,path:`/payments-test`,getParentRoute:()=>uu}),PrivacyRoute:Su.update({id:`/privacy`,path:`/privacy`,getParentRoute:()=>uu})},wu=uu._addFileChildren(Cu),Tu=()=>qc({routeTree:wu,context:{queryClient:new tu},scrollRestoration:!0,defaultPreloadStaleTime:0});async function Eu(){let e=await Tu(),t;if(cl){let n=await cl.getOptions();n.serializationAdapters=n.serializationAdapters??[],window.__TSS_START_OPTIONS__=n,t=n.serializationAdapters,e.options.defaultSsr=n.defaultSsr}else t=[],window.__TSS_START_OPTIONS__={serializationAdapters:t};return t.push(ls),e.options.serializationAdapters&&t.push(...e.options.serializationAdapters),e.update({basepath:``,serializationAdapters:t}),e.stores.matchesId.get().length||await fs(e),e}var Du=Eu;async function Ou(){let e=await Du();return window.$_TSR?.h(),e}var ku;function Au(){return ku||=Ou(),(0,z.jsx)(xs,{promise:ku,children:e=>(0,z.jsx)(Xc,{router:e})})}var ju=g();(0,R.startTransition)(()=>{(0,ju.hydrateRoot)(document,(0,z.jsx)(R.StrictMode,{children:(0,z.jsx)(Au,{})}))});export{c as a,u as i,Cc as n,ys as r,X as t};
+\`\`\``.match(/```json\s*([\s\S]*?)\s*```/);if(!ou?.[1])throw Error(`content.md must contain a fenced JSON document`);var X=JSON.parse(ou[1]),su={"@context":`https://schema.org`,"@type":`Organization`,name:X.brand.name,url:X.site.productionUrl,email:X.business.email,description:X.public[X.site.fallbackLanguage].seo.description,logo:new URL(X.brand.logo,X.site.productionUrl).toString()};function cu(){return(0,z.jsx)(`div`,{className:`flex min-h-screen items-center justify-center bg-background px-4`,children:(0,z.jsxs)(`div`,{className:`max-w-md text-center`,children:[(0,z.jsx)(`h1`,{className:`text-7xl font-bold text-foreground`,children:`404`}),(0,z.jsx)(`h2`,{className:`mt-4 text-xl font-semibold text-foreground`,children:`Page not found`}),(0,z.jsx)(`p`,{className:`mt-2 text-sm text-muted-foreground`,children:`The page you're looking for doesn't exist or has been moved.`}),(0,z.jsx)(`div`,{className:`mt-6`,children:(0,z.jsx)(Cc,{to:`/`,className:`inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90`,children:`Go home`})})]})})}function lu({error:e,reset:t}){console.error(e);let n=As();return(0,R.useEffect)(()=>{au(e,{boundary:`tanstack_root_error_component`})},[e]),(0,z.jsx)(`div`,{className:`flex min-h-screen items-center justify-center bg-background px-4`,children:(0,z.jsxs)(`div`,{className:`max-w-md text-center`,children:[(0,z.jsx)(`h1`,{className:`text-xl font-semibold tracking-tight text-foreground`,children:`This page didn't load`}),(0,z.jsx)(`p`,{className:`mt-2 text-sm text-muted-foreground`,children:`Something went wrong on our end. You can try refreshing or head back home.`}),(0,z.jsxs)(`div`,{className:`mt-6 flex flex-wrap justify-center gap-2`,children:[(0,z.jsx)(`button`,{onClick:()=>{n.invalidate(),t()},className:`inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90`,children:`Try again`}),(0,z.jsx)(`a`,{href:`/`,className:`inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent`,children:`Go home`})]})]})})}var uu=Dc()({head:()=>({meta:[{charSet:`utf-8`},{name:`viewport`,content:`width=device-width, initial-scale=1`},{title:X.public.en.seo.title},{name:`description`,content:X.public.en.seo.description},{name:`author`,content:X.brand.name},{name:`robots`,content:X.internal.development.robots},{property:`og:title`,content:X.public.en.seo.title},{property:`og:description`,content:X.public.en.seo.description},{property:`og:type`,content:`website`},{name:`twitter:card`,content:`summary_large_image`}],links:[{rel:`stylesheet`,href:iu},{rel:`icon`,href:`/${X.brand.logo}`,type:`image/png`},{rel:`preconnect`,href:`https://fonts.googleapis.com`},{rel:`preconnect`,href:`https://fonts.gstatic.com`,crossOrigin:`anonymous`},{rel:`stylesheet`,href:`https://fonts.googleapis.com/css2?family=Caveat+Brush&family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap`}]}),shellComponent:du,component:fu,notFoundComponent:cu,errorComponent:lu});function du({children:e}){return(0,z.jsxs)(`html`,{lang:`en`,children:[(0,z.jsxs)(`head`,{children:[(0,z.jsx)(tl,{}),(0,z.jsx)(`script`,{type:`application/ld+json`,dangerouslySetInnerHTML:{__html:JSON.stringify(su)}})]}),(0,z.jsxs)(`body`,{children:[e,(0,z.jsx)(nl,{})]})]})}function fu(){let{queryClient:e}=uu.useRouteContext();return(0,z.jsx)(ru,{client:e,children:(0,z.jsx)(Hc,{})})}var pu=`modulepreload`,mu=function(e){return`/`+e},hu={},gu=function(e,t,n){let r=Promise.resolve();if(t&&t.length>0){let e=document.getElementsByTagName(`link`),i=document.querySelector(`meta[property=csp-nonce]`),a=i?.nonce||i?.getAttribute(`nonce`);function o(e){return Promise.all(e.map(e=>Promise.resolve(e).then(e=>({status:`fulfilled`,value:e}),e=>({status:`rejected`,reason:e}))))}function s(e){return import.meta.resolve?import.meta.resolve(e):new URL(e,import.meta.url).href}r=o(t.map(t=>{if(t=mu(t,n),t=s(t),t in hu)return;hu[t]=!0;let r=t.endsWith(`.css`);for(let n=e.length-1;n>=0;n--){let i=e[n];if(i.href===t&&(!r||i.rel===`stylesheet`))return}let i=document.createElement(`link`);if(i.rel=r?`stylesheet`:pu,r||(i.as=`script`),i.crossOrigin=``,i.href=t,a&&i.setAttribute(`nonce`,a),document.head.appendChild(i),r)return new Promise((e,n)=>{i.addEventListener(`load`,e),i.addEventListener(`error`,()=>n(Error(`Unable to preload CSS for ${t}`)))})}))}function i(e){let t=new Event(`vite:preloadError`,{cancelable:!0});if(t.payload=e,window.dispatchEvent(t),!t.defaultPrevented)throw e}return r.then(t=>{for(let e of t||[])e.status===`rejected`&&i(e.reason);return e().catch(i)})},_u=()=>gu(()=>import(`./routes-D2Sm1Est.js`),__vite__mapDeps([0,1])),vu=X.public.en.seo,yu=Ac(`/`)({head:()=>({meta:[{title:vu.title},{name:`description`,content:vu.description},{name:`robots`,content:X.internal.development.robots},{property:`og:title`,content:vu.title},{property:`og:description`,content:vu.description},{property:`og:type`,content:`website`},{name:`twitter:card`,content:`summary_large_image`}]}),component:Mc(_u,`component`)}),bu=Ac(`/payments`)({head:()=>({meta:[{title:`Payment — ${X.brand.name}`},{name:`description`,content:`Secure payment for an approved yup.studio website project.`},{name:`robots`,content:X.internal.development.robots}]}),component:Mc(()=>gu(()=>import(`./payments-CfzqtJ3N.js`),__vite__mapDeps([2,1,3,4])),`component`)}),xu=Ac(`/payments-test`)({head:()=>({meta:[{title:`Payment test — ${X.brand.name}`},{name:`description`,content:`Internal live payment test for yup.studio.`},{name:`robots`,content:`noindex, nofollow`}]}),component:Mc(()=>gu(()=>import(`./payments-test-BAsP9GL6.js`),__vite__mapDeps([5,1,3,4])),`component`)}),Su=Ac(`/privacy`)({head:()=>({meta:[{title:`${X.public.en.footer.privacy} — ${X.brand.name}`},{name:`description`,content:X.public.en.seo.description},{name:`robots`,content:X.internal.development.robots},{property:`og:title`,content:`${X.public.en.footer.privacy} — ${X.brand.name}`},{property:`og:description`,content:X.public.en.seo.description},{property:`og:type`,content:`website`},{name:`twitter:card`,content:`summary_large_image`}]}),component:Mc(()=>gu(()=>import(`./privacy-DEtVImCx.js`),__vite__mapDeps([6,1,3])),`component`)}),Cu={IndexRoute:yu.update({id:`/`,path:`/`,getParentRoute:()=>uu}),PaymentsRoute:bu.update({id:`/payments`,path:`/payments`,getParentRoute:()=>uu}),PaymentsTestRoute:xu.update({id:`/payments-test`,path:`/payments-test`,getParentRoute:()=>uu}),PrivacyRoute:Su.update({id:`/privacy`,path:`/privacy`,getParentRoute:()=>uu})},wu=uu._addFileChildren(Cu),Tu=()=>qc({routeTree:wu,context:{queryClient:new tu},scrollRestoration:!0,defaultPreloadStaleTime:0});async function Eu(){let e=await Tu(),t;if(cl){let n=await cl.getOptions();n.serializationAdapters=n.serializationAdapters??[],window.__TSS_START_OPTIONS__=n,t=n.serializationAdapters,e.options.defaultSsr=n.defaultSsr}else t=[],window.__TSS_START_OPTIONS__={serializationAdapters:t};return t.push(ls),e.options.serializationAdapters&&t.push(...e.options.serializationAdapters),e.update({basepath:``,serializationAdapters:t}),e.stores.matchesId.get().length||await fs(e),e}var Du=Eu;async function Ou(){let e=await Du();return window.$_TSR?.h(),e}var ku;function Au(){return ku||=Ou(),(0,z.jsx)(xs,{promise:ku,children:e=>(0,z.jsx)(Xc,{router:e})})}var ju=g();(0,R.startTransition)(()=>{(0,ju.hydrateRoot)(document,(0,z.jsx)(R.StrictMode,{children:(0,z.jsx)(Au,{})}))});export{c as a,u as i,Cc as n,ys as r,X as t};

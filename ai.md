@@ -9,10 +9,10 @@ Canonical website: https://yup.studio/
 
 # yup.studio
 
-Modernizujeme staré weby malých firem. Rychlý, responzivní web připravený pro vyhledávače i AI asistenty. První návrh zdarma, bez zálohy.
+Moderní weby pro malé firmy. První návrh zdarma, bez zálohy — platíte až po schválení.
 
-## Modernizujeme staré weby malých firem.
-Rychlý, moderní a responzivní web připravený pro vyhledávače i AI asistenty.
+## Web pro to, co přijde dál.
+Modernizujeme staré weby a tvoříme nové. První návrh vám ukáže, co můžete mít.
 
 ## Pro koho to je
 - Malé firmy se zastaralým webem
@@ -23,7 +23,7 @@ Rychlý, moderní a responzivní web připravený pro vyhledávače i AI asisten
 2. **Připravíme první návrh zdarma** — Ukážeme vám směr redesignu ještě před tím, než se rozhodnete pokračovat.
 3. **Po schválení zaplatíte a web nasadíme** — Bez zálohy. Platíte až ve chvíli, kdy schválíte výsledný web.
 
-## Co je v ceně
+## Co dostanete
 Price: od 7 900 Kč
 - Jednoduchý firemní web — redesign nebo nový web
 - Responzivní design pro mobil, tablet i desktop
@@ -49,10 +49,10 @@ Price: od 7 900 Kč
 
 # yup.studio
 
-We modernize outdated websites for small businesses. Fast, responsive and ready for search engines and AI assistants. First concept free, no upfront payment.
+Modern websites for small businesses. First concept free, no upfront payment — pay after approval.
 
-## We modernize outdated websites for small businesses.
-A fast, modern and responsive website ready for search engines and AI assistants.
+## Websites built for what’s next.
+We modernize outdated websites and build new ones. Your first concept shows you what you could have.
 
 ## Who it is for
 - Small businesses with an outdated website
@@ -63,7 +63,7 @@ A fast, modern and responsive website ready for search engines and AI assistants
 2. **We prepare the first concept for free** — You see the direction of the redesign before deciding whether to continue.
 3. **After approval, you pay and we launch** — No upfront payment. You pay once you approve the finished website.
 
-## What is included
+## What you get
 Price: from €329
 - Simple business website, redesigned or new
 - Responsive design for mobile, tablet and desktop
