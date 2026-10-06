@@ -1,1 +1,0 @@
-import{d as e,t}from"./index-BYlct78n.js";var n=e(),r=()=>(0,n.jsx)(t,{topic:`payments`});export{r as component};

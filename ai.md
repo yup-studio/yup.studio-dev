@@ -11,7 +11,7 @@ Canonical website: https://yup.studio/
 
 Moderní weby pro malé firmy. První návrh zdarma, bez zálohy — platíte až po schválení.
 
-## Web pro to, co přijde dál.
+## Web pro to, co přijde dál
 Modernizujeme staré weby a tvoříme nové. První návrh vám ukáže, co můžete mít.
 
 ## Pro koho to je
@@ -51,7 +51,7 @@ Price: od 7 900 Kč
 
 Modern websites for small businesses. First concept free, no upfront payment — pay after approval.
 
-## Websites built for what’s next.
+## Websites built for what’s next
 We modernize outdated websites and build new ones. Your first concept shows you what you could have.
 
 ## Who it is for
