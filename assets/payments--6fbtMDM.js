@@ -1,0 +1,1 @@
+import{d as e,t}from"./index-DN9-eN2c.js";var n=e(),r=()=>(0,n.jsx)(t,{topic:`payments`});export{r as component};
