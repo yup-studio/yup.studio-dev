@@ -1,0 +1,1 @@
+import{d as e,t}from"./index-BcuDOtzm.js";var n=e(),r=()=>(0,n.jsx)(t,{topic:`payments`});export{r as component};
