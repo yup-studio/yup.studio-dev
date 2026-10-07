@@ -1,1 +1,0 @@
-import{d as e,t}from"./index-DVQm5yKG.js";var n=e(),r=()=>(0,n.jsx)(t,{topic:`modernWeb`});export{r as component};
