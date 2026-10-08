@@ -1,1 +1,0 @@
-import{d as e,t}from"./index-2auW05UP.js";var n=e(),r=()=>(0,n.jsx)(t,{topic:`modernWeb`});export{r as component};
