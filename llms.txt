@@ -9,3 +9,4 @@
 ## Public pages
 - [Home](https://yup.studio/)
 - [privacy](https://yup.studio/privacy)
+- [terms](https://yup.studio/terms)
