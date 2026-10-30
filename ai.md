@@ -64,7 +64,7 @@ We modernize outdated websites and build new ones. Your first concept shows you 
 3. **After approval, you pay and we launch** — After approving the design, you pay for the annual plan and we launch. No automatic renewal.
 
 ## What you get
-Price: from CZK 3,900/year
+Price: from €156/year
 - Business website — new or modernized
 - Responsive design for mobile, tablet and desktop
 - Up to 2 language versions
