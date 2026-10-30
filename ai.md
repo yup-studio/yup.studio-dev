@@ -24,7 +24,7 @@ Modernizujeme staré weby a tvoříme nové. První návrh vám ukáže, co mů�
 3. **Po schválení zaplatíte a web nasadíme** — Po schválení návrhu uhradíte roční tarif a web spustíme. Bez automatického prodlužování.
 
 ## Co dostanete
-Price: od 7 900 Kč
+Price: od 3 900 Kč/rok
 - Prezentační firemní web — nový nebo modernizovaný
 - Responzivní design pro mobil, tablet i desktop
 - Až 2 jazykové verze
@@ -64,7 +64,7 @@ We modernize outdated websites and build new ones. Your first concept shows you 
 3. **After approval, you pay and we launch** — After approving the design, you pay for the annual plan and we launch. No automatic renewal.
 
 ## What you get
-Price: from €329
+Price: from CZK 3,900/year
 - Business website — new or modernized
 - Responsive design for mobile, tablet and desktop
 - Up to 2 language versions
