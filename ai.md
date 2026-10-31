@@ -24,7 +24,7 @@ Modernizujeme staré weby a tvoříme nové. První návrh vám ukáže, co mů�
 3. **Po schválení zaplatíte a web nasadíme** — Po schválení návrhu uhradíte roční tarif a web spustíme. Bez automatického prodlužování.
 
 ## Co dostanete
-Price: od 3 900 Kč/rok
+Price: od 3 900 Kč za první rok
 - Prezentační firemní web — nový nebo modernizovaný
 - Responzivní design pro mobil, tablet i desktop
 - Až 2 jazykové verze
@@ -37,7 +37,7 @@ Price: od 3 900 Kč/rok
 - Váš obsah vám zůstává; provoz webu je roční služba
 
 ## Technická správa
-v ceně ročního předplatného — Hosting, HTTPS a technická údržba jsou v ročním tarifu. Zahrnuty jsou 2 nebo 4 drobné obsahové úpravy podle tarifu; cena vlastní domény se hradí zvlášť.
+v ceně ročního předplatného — První rok zahrnuje tvorbu webu, hosting, HTTPS, technickou údržbu a 2 nebo 4 drobné úpravy podle tarifu. Od dalšího roku stojí samotný provoz a péče 1 800 Kč (START) nebo 2 800 Kč (BUSINESS) za 12 měsíců. Doména zvlášť.
 
 ## Contact
 - Email: hello@yup.studio
@@ -64,7 +64,7 @@ We modernize outdated websites and build new ones. Your first concept shows you 
 3. **After approval, you pay and we launch** — After approving the design, you pay for the annual plan and we launch. No automatic renewal.
 
 ## What you get
-Price: from €156/year
+Price: from €156 for the first year
 - Business website — new or modernized
 - Responsive design for mobile, tablet and desktop
 - Up to 2 language versions
@@ -77,7 +77,7 @@ Price: from €156/year
 - You keep your content; hosting is an annual service
 
 ## Technical management
-included in the annual subscription — Hosting, HTTPS and technical maintenance are included in the annual plan, as well as 2 or 4 small content updates depending on the plan. Domain registration and renewal are charged separately.
+included in the annual subscription — The first year includes website creation, hosting, HTTPS, technical maintenance and 2 or 4 minor updates depending on the plan. Subsequent yearly hosting and care costs CZK 1,800 (€72) for START or CZK 2,800 (€112) for BUSINESS. Domain extra.
 
 ## Contact
 - Email: hello@yup.studio
