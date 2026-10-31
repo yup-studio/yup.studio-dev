@@ -21,7 +21,7 @@ Modernizujeme staré weby a tvoříme nové. První návrh vám ukáže, co mů�
 ## Jak to funguje
 1. **Pošlete nám svůj web** — Pokud web ještě nemáte, stačí nám popsat vaši firmu a co potřebujete.
 2. **Připravíme první návrh zdarma** — Ukážeme vám směr redesignu ještě před tím, než se rozhodnete pokračovat.
-3. **Po schválení zaplatíte a web nasadíme** — Po schválení návrhu uhradíte roční tarif a web spustíme. Bez automatického prodlužování.
+3. **Po schválení zaplatíte a web nasadíme** — Po schválení návrhu uhradíte vytvoření webu včetně prvního roku provozu a web spustíme. Další roky mají nižší cenu za provoz a péči. Bez automatického prodlužování.
 
 ## Co dostanete
 Price: od 3 900 Kč za první rok
@@ -61,7 +61,7 @@ We modernize outdated websites and build new ones. Your first concept shows you 
 ## How it works
 1. **Send us your website** — If you do not have one yet, tell us about your business and what you need.
 2. **We prepare the first concept for free** — You see the direction of the redesign before deciding whether to continue.
-3. **After approval, you pay and we launch** — After approving the design, you pay for the annual plan and we launch. No automatic renewal.
+3. **After approval, you pay and we launch** — After approving the design, you pay for website creation including the first year of service, and we launch. Subsequent years cost less for hosting and care. No automatic renewal.
 
 ## What you get
 Price: from €156 for the first year
